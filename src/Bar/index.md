@@ -1,10 +1,10 @@
 ---
-title: Foo 测试Foo
+title: Bar 柱状图
 nav:
   title: 组件
   path: /common
 group:
-  title: 基础组件
+  title: 图表
 ---
 
 ## Foo

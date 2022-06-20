@@ -1,13 +1,11 @@
 ---
-title: Foo 测试Foo
+title: Tag 标签
 nav:
   title: 组件
   path: /common
 group:
   title: 基础组件
 ---
-
-## Foo
 
 Demo:
 
