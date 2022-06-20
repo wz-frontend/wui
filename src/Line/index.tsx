@@ -2,7 +2,7 @@ import { Line as BasicLine } from '@ant-design/plots';
 import React, { memo, useEffect } from 'react';
 
 interface LineProps {
-  data: Array<object>;
+  data: object[];
   xField: string;
   yField: string;
 }
@@ -16,7 +16,7 @@ const Line: React.FC<LineProps> = (props) => {
 
   const config = {
     data,
-    padding: 'auto',
+    padding: 2,
     xField,
     yField,
     xAxis: {
