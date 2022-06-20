@@ -1,33 +1,13 @@
-# wui
-
-## Getting Started
+# wzhg-ui
 
 Install dependencies,
 
 ```bash
-$ npm i
+$ npm install wzhg-ui --save
 ```
 
-Start the dev server,
+Demo:
 
 ```bash
-$ npm start
-```
-
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Run test,
-
-```bash
-$ npm test
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
+import {Line} from 'wzhg-ui';
 ```

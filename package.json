@@ -1,8 +1,9 @@
 {
   "private": false,
-  "name": "wui",
+  "name": "wzhg-ui",
+  "keyword": "react component library",
   "description": "wui is a react component library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -14,6 +15,7 @@
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build"
   },
+  "main": "es/index.js",
   "module": "es/index.js",
   "typings": "es/index.d.ts",
   "gitHooks": {
